@@ -6,7 +6,7 @@ using namespace std;
 int solution(string message) {
     int answer = 0;
     
-    for(int word : message){
+    for(auto word : message){
         answer+=2;
     }
     
