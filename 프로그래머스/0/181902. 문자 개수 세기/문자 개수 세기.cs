@@ -5,7 +5,7 @@ public class Solution {
         int[] answer = new int[52];
         
         foreach(char word in my_string){
-            int num = (int)word>64 && (int)word<91 ? (int)word-65 : (int)word-71;
+            int num = word>64 && word<91 ? word-65 : word-71;
             answer[num]++;
         }
         
